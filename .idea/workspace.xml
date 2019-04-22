@@ -12,6 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
     <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -31,8 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/org/jetbrains/issue/SampleTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="238">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#test should be run by gradle#0;n#!!block;n#SampleTest#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SampleTest.test should be run by gradle">
     <configuration name="SampleTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="idea-211300.test" />
       <extension name="coverage">
@@ -104,6 +109,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.test should be run by gradle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="idea-211300.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jetbrains.issue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jetbrains.issue" />
+      <option name="MAIN_CLASS_NAME" value="org.jetbrains.issue.SampleTest" />
+      <option name="METHOD_NAME" value="test should be run by gradle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SampleTest.test should be run by gradle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SampleTest.test should be run by gradle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -116,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555920952563</updated>
       <workItem from="1555920957217" duration="194000" />
-      <workItem from="1555922374270" duration="198000" />
+      <workItem from="1555922374270" duration="262000" />
     </task>
     <servers />
   </component>
@@ -135,7 +164,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392000" />
+    <option name="totallyTimeSpent" value="456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="697" extended-state="0" />
@@ -187,8 +216,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/groovy/org/jetbrains/issue/SampleTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="238">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#test should be run by gradle#0;n#!!block;n#SampleTest#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
