@@ -1,0 +1,9 @@
+# Issue-IDEA-211300
+Reproduce project for IDEA-211300 issue.
+
+Issue: https://youtrack.jetbrains.com/issue/IDEA-211300
+
+
+## Note
+
+I track the .idea directory to preserve IDE configurations. Please take care the git commit log to review reproduce process.
