@@ -1,0 +1,21 @@
+plugins {
+    id 'groovy'
+}
+
+group 'org.jetbrains.issue'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation localGroovy()
+    testImplementation 'org.hamcrest:hamcrest:2.1'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'net.bytebuddy:byte-buddy:1.9.2'
+    testImplementation 'org.objenesis:objenesis:3.0.1'
+    testImplementation("org.spockframework:spock-core:1.2-groovy-2.5") {
+        exclude group: "org.codehaus.groovy", module: "groovy-all"
+    }
+}
